@@ -1,0 +1,14 @@
+# Локальное: тестовые материалы, результаты, планы и личные данные не публикуются
+img/
+output/
+tests/
+src/prototype.py
+presets/
+docs/
+PLAN.md
+tz.txt
+palettes/user.json
+palettes/user.broken.json
+
+__pycache__/
+*.pyc

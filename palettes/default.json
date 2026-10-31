@@ -1,0 +1,23 @@
+{
+  "paints": [
+    {"id": "lemon",         "name_ru": "Лимонная",           "name_en": "Lemon Yellow",   "rgb": [245, 220, 40]},
+    {"id": "yellow_medium", "name_ru": "Жёлтая средняя",     "name_en": "Yellow Medium",  "rgb": [240, 190, 30]},
+    {"id": "yellow_ochre",  "name_ru": "Охра жёлтая",        "name_en": "Yellow Ochre",   "rgb": [205, 150, 60]},
+    {"id": "scarlet",       "name_ru": "Алая",               "name_en": "Scarlet",        "rgb": [220, 50, 40]},
+    {"id": "carmine",       "name_ru": "Карминовая",         "name_en": "Carmine",        "rgb": [170, 30, 60]},
+    {"id": "ultramarine",   "name_ru": "Ультрамарин",        "name_en": "Ultramarine",    "rgb": [40, 60, 160]},
+    {"id": "burnt_sienna",  "name_ru": "Сиена жжёная",       "name_en": "Burnt Sienna",   "rgb": [140, 70, 40]},
+    {"id": "burnt_umber",   "name_ru": "Умбра жжёная",       "name_en": "Burnt Umber",    "rgb": [90, 55, 40]},
+    {"id": "emerald",       "name_ru": "Изумрудная зелёная", "name_en": "Emerald Green",  "rgb": [30, 150, 110]},
+    {"id": "green_dark",    "name_ru": "Зелёная тёмная",     "name_en": "Dark Green",     "rgb": [30, 90, 60]},
+    {"id": "cerulean",      "name_ru": "Голубая",            "name_en": "Cerulean Blue",  "rgb": [40, 140, 200]},
+    {"id": "lamp_black",    "name_ru": "Сажа газовая",       "name_en": "Lamp Black",     "rgb": [35, 35, 40]}
+  ],
+  "sets": {
+    "3":  ["lemon", "cerulean", "carmine"],
+    "4":  ["lemon", "scarlet", "cerulean", "burnt_umber"],
+    "6":  ["lemon", "yellow_medium", "scarlet", "carmine", "ultramarine", "cerulean"],
+    "9":  ["lemon", "yellow_medium", "yellow_ochre", "scarlet", "carmine", "emerald", "ultramarine", "cerulean", "lamp_black"],
+    "12": ["lemon", "yellow_medium", "yellow_ochre", "scarlet", "carmine", "burnt_sienna", "burnt_umber", "emerald", "green_dark", "cerulean", "ultramarine", "lamp_black"]
+  }
+}
